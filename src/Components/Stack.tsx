@@ -18,14 +18,11 @@ const Stack = ({ stack, onRemove, onRemoveAll }: StackProps) => {
             {stack.length !== 1 ? 'ies' : 'y'} Selected
           </p>
         </div>
-
-        
       </div>
 
       {stack.length === 0 ? (
         <div className="empty-stack">
           <p className="empty-stack-border">Your stock is empty.</p>
-          
         </div>
       ) : (
         <>
